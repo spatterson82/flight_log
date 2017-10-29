@@ -37,9 +37,10 @@
                     <tr>
                         <td>
                             <label for="log-date">Date:</label>
+                            <label for="log-date">Date:</label>
                         </td>
                         <td>
-                            <input type="text" id="log-date" name="min-price" placeholder="&#9992;">
+                            <input type="date" id="log-date" placeholder="&#9992;">
                         </td>
                     </tr>
                     <tr>
@@ -47,7 +48,7 @@
                             <label for="log-airframe">Airframe:</label>
                         </td>
                         <td>
-                            <input type="text" id="log-airframe" name="max-price" placeholder="&#9992;">
+                            <input type="text" id="log-airframe" placeholder="&#9992;">
                         </td>
                     </tr>
                     <tr>
@@ -55,7 +56,7 @@
                             <label for="log-lat">Latitude:</label>
                         </td>
                         <td>
-                            <input type="text" id="log-lat" name="min-price" placeholder="&#9992;">
+                            <input type="number" id="log-lat" placeholder="&#9992;">
                         </td>
                     </tr>
                     <tr>
@@ -63,15 +64,23 @@
                             <label for="log-lon">Longitude:</label>
                         </td>
                         <td>
-                            <input type="text" id="log-lon" name="max-price" placeholder="&#9992;">
+                            <input type="number" id="log-lon" placeholder="&#9992;">
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <label for="log-timespan">Flight Length:</label>
+                            <label for="log-time">Take-off Time:</label>
                         </td>
                         <td>
-                            <input type="text" id="log-timespan" name="min-price" placeholder="&#9992;">
+                            <input type="time" id="log-time" placeholder="&#9992;">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="log-timespan">Flight Time:</label>
+                        </td>
+                        <td>
+                            <input type="number" id="log-timespan" placeholder="&#9992;">
                         </td>
                     </tr>
                     <tr>
@@ -79,7 +88,7 @@
                             <label for="log-purpose">Flight Reason:</label>
                         </td>
                         <td>
-                            <input type="text" id="log-purpose" name="max-price" placeholder="&#9992;">
+                            <input type="text" id="log-purpose" placeholder="&#9992;">
                         </td>
                     </tr>
                     <tr>
@@ -87,7 +96,7 @@
                             <label for="log-city">Location - City:</label>
                         </td>
                         <td>
-                            <input type="text" id="log-city" name="max-price" placeholder="&#9992;">
+                            <input type="text" id="log-city" placeholder="&#9992;">
                         </td>
                     </tr>
                     <tr>
@@ -95,24 +104,15 @@
                             <label for="log-issues">Flight Issues:</label>
                         </td>
                         <td>
-                            <input type="text" id="log-issues" name="max-price" placeholder="&#9992;">
+                            <input type="text" id="log-issues" placeholder="&#9992;">
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <label for="log-city-select">City:</label>
+                            <label for="log-type">Flight Type:</label>
                         </td>
                         <td>
-                            <input type="text" id="log-city-select" placeholder="&#9992;">
-                            <!--<select id="log-city-select"></select>-->
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <label for="log-type-select">Flight Type:</label>
-                        </td>
-                        <td>
-                            <input type="text" id="log-type-select" placeholder="&#9992;">
+                            <input type="text" id="log-type" placeholder="&#9992;">
                             <!--<select id="log-type-select"></select>-->
                         </td>
                     </tr>
