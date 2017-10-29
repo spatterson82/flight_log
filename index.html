@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Flight Log</title>
 
     <!--put your external stylesheet links here-->
@@ -30,103 +30,85 @@
             <h1>Enter Information:</h1>
             <br><br><br>
 
-            <div id="form" class="col-sm-4">
+            <div id="form" class="col-sm-4 container-fluid table-responsive"> <!--table-responsive-->
                 <!--&#9776;</a>-->
                 <!--<form action="#">-->
-                <table>
-                    <tr>
-                        <td>
-                            <label for="log-date">Date:</label>
-                            <label for="log-date">Date:</label>
-                        </td>
-                        <td>
-                            <input type="date" id="log-date" placeholder="&#9992;">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <label for="log-airframe">Airframe:</label>
-                        </td>
-                        <td>
-                            <input type="text" id="log-airframe" placeholder="&#9992;">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <label for="log-lat">Latitude:</label>
-                        </td>
-                        <td>
-                            <input type="number" id="log-lat" placeholder="&#9992;">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <label for="log-lon">Longitude:</label>
-                        </td>
-                        <td>
-                            <input type="number" id="log-lon" placeholder="&#9992;">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <label for="log-time">Take-off Time:</label>
-                        </td>
-                        <td>
-                            <input type="time" id="log-time" placeholder="&#9992;">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <label for="log-timespan">Flight Time:</label>
-                        </td>
-                        <td>
-                            <input type="number" id="log-timespan" placeholder="&#9992;">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <label for="log-purpose">Flight Reason:</label>
-                        </td>
-                        <td>
-                            <input type="text" id="log-purpose" placeholder="&#9992;">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <label for="log-city">Location - City:</label>
-                        </td>
-                        <td>
-                            <input type="text" id="log-city" placeholder="&#9992;">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <label for="log-issues">Flight Issues:</label>
-                        </td>
-                        <td>
-                            <input type="text" id="log-issues" placeholder="&#9992;">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <label for="log-type">Flight Type:</label>
-                        </td>
-                        <td>
-                            <input type="text" id="log-type" placeholder="&#9992;">
-                            <!--<select id="log-type-select"></select>-->
-                        </td>
-                    </tr>
-                    <tr>
-                        <td colspan="2">
+
+                <form class="form-horizontal">
+                    <br><br><br>
+                    <div class="form-group">
+                        <label for="log-date" class="col-sm-4 control-label">Date:</label>
+                        <div class="col-sm-5">
+                            <input type="date" class="form-control" id="log-date" placeholder="&#9992;">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-4 control-label" for="log-airframe">Airframe:</label>
+                        <div class="col-sm-5">
+                            <input type="text" class="form-control" id="log-airframe" placeholder="   &#9992;">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-4 control-label" for="log-lat">Latitude:</label>
+                        <div class="col-sm-5">
+                            <input type="number" class="form-control" id="log-lat" placeholder="&#9992;">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-4 control-label" for="log-lon">Longitude:</label>
+                        <div class="col-sm-5">
+                            <input type="number" class="form-control" id="log-lon" placeholder="&#9992;">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-4 control-label" for="log-time">Take-off Time:</label>
+                        <div class="col-sm-5">
+                            <input type="time" class="form-control" id="log-time" placeholder="&#9992;">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-4 control-label" for="log-timespan">Flight Time:</label>
+                        <div class="col-sm-5">
+                            <input type="number" class="form-control" id="log-timespan" placeholder="&#9992;">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-4 control-label" for="log-purpose">Flight Reason:</label>
+                        <div class="col-sm-5">
+                            <input type="text" class="form-control" id="log-purpose" placeholder="   &#9992;">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-4 control-label" for="log-city">Location - City:</label>
+                        <div class="col-sm-5">
+                            <input type="text" class="form-control" id="log-city" placeholder="   &#9992;">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-4 control-label" for="log-issues">Flight Issues:</label>
+                        <div class="col-sm-5">
+                            <input type="text" class="form-control" id="log-issues" placeholder="   &#9992;">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-4 control-label" for="log-type">Flight Type:</label>
+                        <div class="col-sm-5">
+                            <input type="text" class="form-control" id="log-type" placeholder="   &#9992;">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="col-sm-offset-4 col-sm-5">
                             <input id="store" type="submit" value="Store Log Data">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td colspan="2">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-offset-4 col-sm-5">
                             <input id="clear" type="reset" onclick="clearForm()" value="Clear Form">
-                        </td>
-                    </tr>
-                </table>
+                        </div>
+                    </div>
+
+                </form>
             </div>
         </div>
     </div>
