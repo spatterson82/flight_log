@@ -12,5 +12,5 @@ function closeNav() {
 
 function clearForm() {
     console.log("cleared form");
-    $('#form input[type=text]').val("");
+    $('#form input[type=text], input[type=date], input[type=number], input[type=time]').val("");
 }
