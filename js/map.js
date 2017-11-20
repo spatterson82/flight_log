@@ -19,10 +19,6 @@
             }
         });
     }
-
-    // TODO Add buttons to query database and plot points - plot all, plot some, query?
-    // TODO Add table of results below map
-    
     $(document).ready();
 
 

@@ -8,7 +8,6 @@ function closeNav() {
     document.getElementById("logWindow").style.width = "0";
 }
 
-// TODO Add functions for buttons to submit
 
 function clearForm() {
     console.log("cleared form");
