@@ -33,7 +33,7 @@ function sql_insert_query() {
         'city'      : "'" + $('#log_city').val() + "'",
         'state'      : "'" + $('#log_state').val() + "'",
         'issues'    : "'" + $('#log_issues').val() + "'",
-        'type'      : "'" + $('#log_type').val() + "'"
+        // 'type'      : "'" + $('#log_type').val() + "'"
     };
     var keys = Object.keys(columns);
     var string_keys = keys.toString();
@@ -90,7 +90,6 @@ $('#store').on('click', function() {
         success: function() {
             alert('submitted report');
             clearForm();
-            // TODO make sure old layer is removed
             load_all_flight_logs();
         }
     });

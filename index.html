@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -47,7 +47,16 @@
                     <div class="form-group">
                         <label class="col-sm-4 control-label" for="log_airframe">Airframe:</label>
                         <div class="col-sm-5">
-                            <input type="text" class="form-control" id="log_airframe" placeholder="   &#9992;">
+                            <input list="aircraft" id="log_airframe" type="text" class="form-control" placeholder="   &#9992;">
+                            <datalist id="aircraft">
+                                <option value="Quadcopter">
+                                <option value="Fixed Wing">
+                                <option value="DJI">
+                                <option value="Parrot">
+                                <option value="Trimble">
+                                <option value="E-Bee">
+                                <option value="Tuffwing">
+                            </datalist>
                         </div>
                     </div>
                     <div class="form-group">
@@ -69,7 +78,7 @@
                         </div>
                     </div>
                     <div class="form-group">
-                        <label class="col-sm-4 control-label" for="log_timespan">Flight Time:</label>
+                        <label class="col-sm-4 control-label" for="log_timespan">Duration(Hrs):</label>
                         <div class="col-sm-5">
                             <input type="number" class="form-control" id="log_timespan" placeholder="&#9992;">
                         </div>
@@ -77,7 +86,14 @@
                     <div class="form-group">
                         <label class="col-sm-4 control-label" for="log_purpose">Flight Reason:</label>
                         <div class="col-sm-5">
-                            <input type="text" class="form-control" id="log_purpose" placeholder="   &#9992;">
+                            <input list="reasons" type="text" class="form-control" id="log_purpose" placeholder="   &#9992;">
+                            <datalist id="reasons">
+                                <option value="Routine">
+                                <option value="Experimental">
+                                <option value="Project">
+                                <option value="Reconnaissance">
+                                <option value="Aid">
+                            </datalist>
                         </div>
                     </div>
                     <div class="form-group">
@@ -89,7 +105,59 @@
                     <div class="form-group">
                         <label class="col-sm-4 control-label" for="log_state">Location - State:</label>
                         <div class="col-sm-5">
-                            <input type="text" class="form-control" id="log_state" placeholder="   &#9992;">
+                            <input list="states" type="text" class="form-control" id="log_state" placeholder="   &#9992;">
+                            <datalist id="states">
+                                <option value="AL">
+                                <option value="AK">
+                                <option value="AZ">
+                                <option value="AR">
+                                <option value="CA">
+                                <option value="CO">
+                                <option value="CT">
+                                <option value="DE">
+                                <option value="FL">
+                                <option value="GA">
+                                <option value="HI">
+                                <option value="ID">
+                                <option value="IL">
+                                <option value="IN">
+                                <option value="IA">
+                                <option value="KS">
+                                <option value="KY">
+                                <option value="LA">
+                                <option value="ME">
+                                <option value="MD">
+                                <option value="MA">
+                                <option value="MI">
+                                <option value="MN">
+                                <option value="MS">
+                                <option value="MO">
+                                <option value="MT">
+                                <option value="NE">
+                                <option value="NV">
+                                <option value="NH">
+                                <option value="NJ">
+                                <option value="NM">
+                                <option value="NY">
+                                <option value="NC">
+                                <option value="ND">
+                                <option value="OH">
+                                <option value="OK">
+                                <option value="OR">
+                                <option value="PA">
+                                <option value="RI">
+                                <option value="SC">
+                                <option value="SD">
+                                <option value="TN">
+                                <option value="TX">
+                                <option value="UT">
+                                <option value="VT">
+                                <option value="VA">
+                                <option value="WA">
+                                <option value="WV">
+                                <option value="WI">
+                                <option value="WY">
+                            </datalist>
                         </div>
                     </div>
                     <div class="form-group">
@@ -98,12 +166,12 @@
                             <input type="text" class="form-control" id="log_issues" placeholder="   &#9992;">
                         </div>
                     </div>
-                    <div class="form-group">
-                        <label class="col-sm-4 control-label" for="log_type">Flight Type:</label>
-                        <div class="col-sm-5">
-                            <input type="text" class="form-control" id="log_type" placeholder="   &#9992;">
-                        </div>
-                    </div>
+                    <!--<div class="form-group">-->
+                        <!--<label class="col-sm-4 control-label" for="log_type">Flight Type:</label>-->
+                        <!--<div class="col-sm-5">-->
+                            <!--<input type="text" class="form-control" id="log_type" placeholder="   &#9992;">-->
+                        <!--</div>-->
+                    <!--</div>-->
 
                     <div class="form-group">
                         <div class="col-sm-offset-4 col-sm-5">
