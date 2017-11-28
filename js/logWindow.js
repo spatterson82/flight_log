@@ -57,8 +57,20 @@ function createPopup(feature) {
     // TODO make popup unique by layer and show everything
 
     var prop = feature.properties;
+    var months = [
+        "January", "February", "March",
+        "April", "May", "June", "July",
+        "August", "September", "October",
+        "November", "December"
+    ];
+    var date = new Date(prop.date);
+    var day = date.getDate();
+    var month = date.getMonth();
+    var year = date.getFullYear();
+
     return L.popup().setContent(
-        '<p>Date: ' + prop.date + '</p>' +
+        '<p>Date: ' + months[month] + ' ' + day + ', ' + year + '</p>' +
+        '<p>Time: ' + prop.time + ' ISO' + '</p>' +
         '<p>Location: ' + prop.city + ', ' + prop.state + '</p>' +
         '<p>Airframe: ' + prop.airframe + '</p>' +
         '<p>Purpose: ' + prop.purpose + '</p>' +
