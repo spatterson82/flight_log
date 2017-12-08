@@ -1,204 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c6e1f76f-bfff-4ee7-95e4-2fd891c99c42" name="Default" comment="flight-log - Updated time formatting in popup.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/shapefiles/flight_log_data.dbf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/shapefiles/flight_log_data.shp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/shapefiles/flight_log_data.shx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/shapefiles/flight_log_data.zip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/shapefiles/flight_log_data.cpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/shapefiles/flight_log_data.prj" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/listings.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/Sampl_Layout.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/back.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/blue_house.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/forward.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/house.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/index2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/Leaflet.geoCSV/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/Leaflet.geoCSV/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/Leaflet.geoCSV/example/bankia/bankia.raw.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/Leaflet.geoCSV/example/bankia/bankias.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/Leaflet.geoCSV/example/bankia/brankia.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/Leaflet.geoCSV/example/bankia/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/Leaflet.geoCSV/example/bankia/marcador-bankia.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/Leaflet.geoCSV/example/bankia/marker-shadow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/Leaflet.geoCSV/example/bankia/scrap.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/Leaflet.geoCSV/example/from-url/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/Leaflet.geoCSV/example/icons/blue.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/Leaflet.geoCSV/example/icons/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/Leaflet.geoCSV/example/icons/purple.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/Leaflet.geoCSV/example/icons/red.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/Leaflet.geoCSV/example/icons/shadow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/Leaflet.geoCSV/example/options-test/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/Leaflet.geoCSV/leaflet.geocsv-src.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/Leaflet.geoCSV/leaflet.geocsv.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/Leaflet.geoCSV/leaflet.geocsv.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/Leaflet.geoCSV/lib/MarkerCluster.Default.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/Leaflet.geoCSV/lib/MarkerCluster.Default.ie.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/Leaflet.geoCSV/lib/MarkerCluster.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/Leaflet.geoCSV/lib/codemirror/codemirror.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/Leaflet.geoCSV/lib/codemirror/codemirror.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/Leaflet.geoCSV/lib/codemirror/mode-javascript.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/Leaflet.geoCSV/lib/codemirror/util/closetag.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/Leaflet.geoCSV/lib/codemirror/util/colorize.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/Leaflet.geoCSV/lib/codemirror/util/continuecomment.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/Leaflet.geoCSV/lib/codemirror/util/continuelist.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/Leaflet.geoCSV/lib/codemirror/util/dialog.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/Leaflet.geoCSV/lib/codemirror/util/dialog.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/Leaflet.geoCSV/lib/codemirror/util/foldcode.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/Leaflet.geoCSV/lib/codemirror/util/formatting.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/Leaflet.geoCSV/lib/codemirror/util/javascript-hint.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/Leaflet.geoCSV/lib/codemirror/util/loadmode.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/Leaflet.geoCSV/lib/codemirror/util/match-highlighter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/Leaflet.geoCSV/lib/codemirror/util/matchbrackets.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/Leaflet.geoCSV/lib/codemirror/util/multiplex.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/Leaflet.geoCSV/lib/codemirror/util/overlay.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/Leaflet.geoCSV/lib/codemirror/util/pig-hint.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/Leaflet.geoCSV/lib/codemirror/util/runmode-standalone.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/Leaflet.geoCSV/lib/codemirror/util/runmode.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/Leaflet.geoCSV/lib/codemirror/util/search.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/Leaflet.geoCSV/lib/codemirror/util/searchcursor.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/Leaflet.geoCSV/lib/codemirror/util/simple-hint.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/Leaflet.geoCSV/lib/codemirror/util/simple-hint.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/Leaflet.geoCSV/lib/codemirror/util/xml-hint.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/Leaflet.geoCSV/lib/images/layers-2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/Leaflet.geoCSV/lib/images/layers.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/Leaflet.geoCSV/lib/images/marker-icon-2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/Leaflet.geoCSV/lib/images/marker-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/Leaflet.geoCSV/lib/images/marker-icon@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/Leaflet.geoCSV/lib/images/marker-shadow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/Leaflet.geoCSV/lib/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/Leaflet.geoCSV/lib/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/Leaflet.geoCSV/lib/leaflet-src.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/Leaflet.geoCSV/lib/leaflet.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/Leaflet.geoCSV/lib/leaflet.ie.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/Leaflet.geoCSV/lib/leaflet.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/Leaflet.geoCSV/lib/leaflet.markercluster-src.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/Leaflet.geoCSV/lib/leaflet.markercluster.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet-tag-filter-button/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet-tag-filter-button/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet-tag-filter-button/apiary.apib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet-tag-filter-button/demo/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet-tag-filter-button/demo/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet-tag-filter-button/demo/demo.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet-tag-filter-button/demo/filter.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet-tag-filter-button/demo/images/fullscreen.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet-tag-filter-button/demo/images/fullscreen@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet-tag-filter-button/demo/images/layers.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet-tag-filter-button/demo/images/marker-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet-tag-filter-button/demo/images/marker-shadow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet-tag-filter-button/demo/leaflet-easy-button.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet-tag-filter-button/demo/leaflet-easy-button.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet-tag-filter-button/demo/leaflet.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet-tag-filter-button/demo/leaflet.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet-tag-filter-button/demo/ripple.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet-tag-filter-button/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet-tag-filter-button/src/leaflet-tag-filter-button.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet-tag-filter-button/src/leaflet-tag-filter-button.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet.markercluster/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet.markercluster/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet.markercluster/CHANGELOG.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet.markercluster/CONTRIBUTING.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet.markercluster/ISSUE_TEMPLATE.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet.markercluster/Jakefile.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet.markercluster/MIT-LICENCE.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet.markercluster/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet.markercluster/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet.markercluster/build/build.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet.markercluster/build/deps.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet.markercluster/build/hintrc.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet.markercluster/dist/MarkerCluster.Default.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet.markercluster/dist/MarkerCluster.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet.markercluster/dist/leaflet.markercluster-src.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet.markercluster/dist/leaflet.markercluster.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet.markercluster/example/geojson-sample.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet.markercluster/example/geojson.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet.markercluster/example/map.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet.markercluster/example/marker-clustering-convexhull.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet.markercluster/example/marker-clustering-custom.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet.markercluster/example/marker-clustering-dragging.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet.markercluster/example/marker-clustering-everything.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet.markercluster/example/marker-clustering-geojson.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet.markercluster/example/marker-clustering-realworld-maxzoom.388.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet.markercluster/example/marker-clustering-realworld-mobile.388.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet.markercluster/example/marker-clustering-realworld.10000.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet.markercluster/example/marker-clustering-realworld.388.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet.markercluster/example/marker-clustering-realworld.50000.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet.markercluster/example/marker-clustering-singlemarkermode.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet.markercluster/example/marker-clustering-spiderfier.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet.markercluster/example/marker-clustering-zoomtobounds.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet.markercluster/example/marker-clustering-zoomtoshowlayer.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet.markercluster/example/marker-clustering.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet.markercluster/example/mobile.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet.markercluster/example/old-bugs/add-1000-after.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet.markercluster/example/old-bugs/add-markers-offscreen.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet.markercluster/example/old-bugs/add-remove-before-addtomap.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet.markercluster/example/old-bugs/animationless-zoom.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet.markercluster/example/old-bugs/click-cluster-at-screen-edge.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet.markercluster/example/old-bugs/disappearing-marker-from-spider.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet.markercluster/example/old-bugs/doesnt-update-cluster-on-bottom-level.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet.markercluster/example/old-bugs/remove-add-clustering.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet.markercluster/example/old-bugs/remove-when-spiderfied.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet.markercluster/example/old-bugs/removelayer-after-remove-from-map.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet.markercluster/example/old-bugs/setView-doesnt-remove.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet.markercluster/example/old-bugs/zoomtoshowlayer-doesnt-need-to-zoom.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet.markercluster/example/old-bugs/zoomtoshowlayer-doesnt-zoom-if-centered-on.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet.markercluster/example/realworld.10000.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet.markercluster/example/realworld.388.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet.markercluster/example/realworld.50000.1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet.markercluster/example/realworld.50000.2.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet.markercluster/example/remove-geoJSON-when-spiderfied.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet.markercluster/example/screen.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet.markercluster/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet.markercluster/spec/after.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet.markercluster/spec/expect.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet.markercluster/spec/happen.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet.markercluster/spec/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet.markercluster/spec/karma.conf.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet.markercluster/spec/sinon.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet.markercluster/spec/suites/AddLayer.MultipleSpec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet.markercluster/spec/suites/AddLayer.SingleSpec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet.markercluster/spec/suites/AddLayersSpec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet.markercluster/spec/suites/ChildChangingIconSupportSpec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet.markercluster/spec/suites/CircleMarkerSupportSpec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet.markercluster/spec/suites/CircleSupportSpec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet.markercluster/spec/suites/DistanceGridSpec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet.markercluster/spec/suites/LeafletSpec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet.markercluster/spec/suites/NonPointSpec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet.markercluster/spec/suites/QuickHullSpec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet.markercluster/spec/suites/RefreshSpec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet.markercluster/spec/suites/RememberOpacity.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet.markercluster/spec/suites/RemoveLayerSpec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet.markercluster/spec/suites/SpecHelper.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet.markercluster/spec/suites/animateOptionSpec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet.markercluster/spec/suites/clearLayersSpec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet.markercluster/spec/suites/disableClusteringAtZoomSpec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet.markercluster/spec/suites/eachLayerSpec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet.markercluster/spec/suites/eventsSpec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet.markercluster/spec/suites/getBoundsSpec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet.markercluster/spec/suites/getLayersSpec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet.markercluster/spec/suites/getVisibleParentSpec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet.markercluster/spec/suites/markerMoveSupportSpec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet.markercluster/spec/suites/onAddSpec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet.markercluster/spec/suites/onRemoveSpec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet.markercluster/spec/suites/removeLayersSpec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet.markercluster/spec/suites/removeOutsideVisibleBoundsSpec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet.markercluster/spec/suites/singleMarkerModeSpec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet.markercluster/spec/suites/spiderfySpec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet.markercluster/spec/suites/supportNegativeZoomSpec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet.markercluster/spec/suites/unspiderfySpec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet.markercluster/spec/suites/zoomAnimationSpec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet.markercluster/src/DistanceGrid.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet.markercluster/src/MarkerCluster.QuickHull.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet.markercluster/src/MarkerCluster.Spiderfier.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet.markercluster/src/MarkerCluster.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet.markercluster/src/MarkerClusterGroup.Refresh.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet.markercluster/src/MarkerClusterGroup.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet.markercluster/src/MarkerOpacity.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet.markercluster/src/copyright.js" afterPath="" />
+    <list default="true" id="c6e1f76f-bfff-4ee7-95e4-2fd891c99c42" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/logWindow.css" afterPath="$PROJECT_DIR$/css/logWindow.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/logWindow.js" afterPath="$PROJECT_DIR$/js/logWindow.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -216,8 +23,8 @@
       <file leaf-file-name="logWindow.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/logWindow.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7176">
-              <caret line="138" column="20" lean-forward="false" selection-start-line="138" selection-start-column="20" selection-end-line="138" selection-end-column="20" />
+            <state relative-caret-position="4212">
+              <caret line="81" column="23" lean-forward="false" selection-start-line="81" selection-start-column="23" selection-end-line="81" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -233,11 +40,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="map.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="map.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/map.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="988">
-              <caret line="19" column="11" lean-forward="true" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+            <state relative-caret-position="1040">
+              <caret line="20" column="5" lean-forward="false" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -256,18 +63,20 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="186" column="23" lean-forward="true" selection-start-line="186" selection-start-column="23" selection-end-line="186" selection-end-column="23" />
-              <folding />
+            <state relative-caret-position="-312">
+              <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+              <folding>
+                <element signature="n#datalist#0;n#div#0;n#div#8;n#form#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="logWindow.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="logWindow.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/logWindow.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1678">
-              <caret line="74" column="50" lean-forward="true" selection-start-line="74" selection-start-column="50" selection-end-line="74" selection-end-column="50" />
+            <state relative-caret-position="638">
+              <caret line="117" column="43" lean-forward="true" selection-start-line="117" selection-start-column="43" selection-end-line="117" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -309,6 +118,7 @@
       <find>c</find>
       <find>geo</find>
       <find>geocsv</find>
+      <find>label</find>
     </findStrings>
     <replaceStrings>
       <replace>col-sm-6</replace>
@@ -327,8 +137,8 @@
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/css/logWindow.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/map.js" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/logWindow.js" />
       </list>
     </option>
@@ -361,8 +171,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -451,6 +259,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -561,7 +371,9 @@
       <workItem from="1511144744822" duration="545000" />
       <workItem from="1511228539395" duration="38000" />
       <workItem from="1511832542951" duration="1806000" />
-      <workItem from="1512320044317" duration="320000" />
+      <workItem from="1512320044317" duration="389000" />
+      <workItem from="1512688439400" duration="1012000" />
+      <workItem from="1512691457755" duration="7178000" />
     </task>
     <task id="LOCAL-00001" summary="flight-log - Added form validation.">
       <created>1509236349830</created>
@@ -626,11 +438,18 @@
       <option name="project" value="LOCAL" />
       <updated>1511833846673</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="flight-log - Cleaned up repository.">
+      <created>1512320379129</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1512320379129</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56184000" />
+    <option name="totallyTimeSpent" value="64443000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-16" y="-16" width="3872" height="2092" extended-state="6" />
@@ -639,7 +458,6 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24986765" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -651,6 +469,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -670,7 +489,8 @@
     <MESSAGE value="flight-log - Removed unused files." />
     <MESSAGE value="flight-log - Removed unused TODO messages." />
     <MESSAGE value="flight-log - Updated time formatting in popup." />
-    <option name="LAST_COMMIT_MESSAGE" value="flight-log - Updated time formatting in popup." />
+    <MESSAGE value="flight-log - Cleaned up repository." />
+    <option name="LAST_COMMIT_MESSAGE" value="flight-log - Cleaned up repository." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -714,7 +534,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2808">
           <caret line="54" column="52" lean-forward="true" selection-start-line="54" selection-start-column="52" selection-end-line="54" selection-end-column="52" />
-          <folding />
+          <folding>
+            <element signature="n#datalist#0;n#div#0;n#div#8;n#form#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -747,7 +569,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="884">
           <caret line="17" column="23" lean-forward="false" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-          <folding />
+          <folding>
+            <element signature="n#datalist#0;n#div#0;n#div#8;n#form#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -779,7 +603,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1196">
           <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="n#datalist#0;n#div#0;n#div#8;n#form#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -812,7 +638,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1196">
           <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="n#datalist#0;n#div#0;n#div#8;n#form#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -877,7 +705,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1040">
           <caret line="20" column="6" lean-forward="false" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
-          <folding />
+          <folding>
+            <element signature="n#datalist#0;n#div#0;n#div#8;n#form#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -917,7 +747,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1040">
           <caret line="20" column="6" lean-forward="false" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
-          <folding />
+          <folding>
+            <element signature="n#datalist#0;n#div#0;n#div#8;n#form#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -957,20 +789,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1040">
           <caret line="20" column="6" lean-forward="true" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
-          <folding />
+          <folding>
+            <element signature="n#datalist#0;n#div#0;n#div#8;n#form#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/form.css" />
     <entry file="file://$PROJECT_DIR$/js/main.js" />
-    <entry file="file://$PROJECT_DIR$/index2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-364">
-          <caret line="17" column="10" lean-forward="true" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/index2.html" />
     <entry file="file://$PROJECT_DIR$/server.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -979,16 +806,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/img/back.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/Sampl_Layout.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/img/back.png" />
+    <entry file="file://$PROJECT_DIR$/img/Sampl_Layout.png" />
     <entry file="file://$PROJECT_DIR$/img/circle_marker.svg">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1007,32 +826,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/logWindow.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7176">
-          <caret line="138" column="20" lean-forward="false" selection-start-line="138" selection-start-column="20" selection-end-line="138" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="186" column="23" lean-forward="true" selection-start-line="186" selection-start-column="23" selection-end-line="186" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/logWindow.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1678">
-          <caret line="74" column="50" lean-forward="true" selection-start-line="74" selection-start-column="50" selection-end-line="74" selection-end-column="50" />
+        <state relative-caret-position="4212">
+          <caret line="81" column="23" lean-forward="false" selection-start-line="81" selection-start-column="23" selection-end-line="81" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/map.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="988">
-          <caret line="19" column="11" lean-forward="true" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+        <state relative-caret-position="1040">
+          <caret line="20" column="5" lean-forward="false" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-312">
+          <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding>
+            <element signature="n#datalist#0;n#div#0;n#div#8;n#form#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/logWindow.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="117" column="43" lean-forward="true" selection-start-line="117" selection-start-column="43" selection-end-line="117" selection-end-column="43" />
           <folding />
         </state>
       </provider>

@@ -105,3 +105,39 @@ $('#store').on('click', function() {
         }
     });
 });
+
+
+function find_user(value) {
+    if (value === 'Find Me!') {
+        map.locate({setView : true});
+        map.once('zoom', function() {
+            var center = map.getCenter();
+            $('#log_lat').val(center.lat);
+            $('#log_lon').val(center.lng);
+        });
+    } else if (value === 'Choose on Map..') {
+        console.log('geolocate');
+        $('.closebtn').click();
+        map.on('click', function() {
+            var center = map.getCenter();
+            $('#log_lat').val(center.lat);
+            $('#log_lon').val(center.lng);
+            alert('Added Latitude and Longitude');
+            $('#navButton').click();
+        });
+    }
+}
+
+$('#log_lat').bind('input', function() {
+    var value = $('#log_lat').val();
+    console.log(value);
+    $('#log_lat').val('');
+    find_user(value);
+});
+
+$('#log_lon').bind('input', function() {
+    var value = $('#log_lon').val();
+    console.log(value);
+    $('#log_lon').val('');
+    find_user(value);
+});

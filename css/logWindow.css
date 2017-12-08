@@ -23,7 +23,7 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    background-color: #466446;
+    background-color: #506e50;
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
@@ -75,7 +75,7 @@ body {
 }
 
 #logWindow a:hover{
-    color: #f1f1f1;
+    color: #b4b4b4;
 }
 
 #logWindow .closebtn {
@@ -84,6 +84,7 @@ body {
     right: 25px;
     font-size: 35px;
     margin-left: 50px;
+    color: #fafafa;
 }
 
 @media screen and (max-height: 450px) {
@@ -95,11 +96,13 @@ h1 {
     text-align: center;
     margin-top: -10px;
     line-height: 40px;
+    color: #e1e1e1;
 }
 
 label {
     line-height: 15px;
     font-size: 25px;
+    color: #e1e1e1;
 }
 
 input {
